@@ -1,0 +1,16 @@
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\bin\Debug\UniversCenter.exe.config
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\bin\Debug\UniversCenter.exe
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\bin\Debug\UniversCenter.pdb
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.PL.LoginForm.resources
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.Properties.Resources.resources
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.exe
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.pdb
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.PL.msgBox.resources
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.PL.formChoix.resources
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.PL.Dashbord.resources
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.PL.Eleves_From.resources
+C:\Users\PC\Desktop\Folders\Ofppt\ADO\Univers\UniversCenter\UniversCenter\obj\Debug\UniversCenter.PL.Ajouter_Eleve_Form.resources

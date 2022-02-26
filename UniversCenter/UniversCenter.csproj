@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A96DA1F3-4A28-4F10-A6F7-EC5FC82D7647}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UniversCenter</RootNamespace>
+    <AssemblyName>UniversCenter</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\..\..\Downloads\Bunifu_UI_v1.5.3\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\loginCls.cs" />
+    <Compile Include="DAL\Dal.cs" />
+    <Compile Include="PL\Ajouter_Eleve_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Ajouter_Eleve_Form.Designer.cs">
+      <DependentUpon>Ajouter_Eleve_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Dashbord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Dashbord.Designer.cs">
+      <DependentUpon>Dashbord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Eleves_From.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Eleves_From.Designer.cs">
+      <DependentUpon>Eleves_From.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\formChoix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\formChoix.Designer.cs">
+      <DependentUpon>formChoix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\msgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\msgBox.Designer.cs">
+      <DependentUpon>msgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\Ajouter_Eleve_Form.resx">
+      <DependentUpon>Ajouter_Eleve_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Dashbord.resx">
+      <DependentUpon>Dashbord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Eleves_From.resx">
+      <DependentUpon>Eleves_From.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\formChoix.resx">
+      <DependentUpon>formChoix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\msgBox.resx">
+      <DependentUpon>msgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check Circle_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_male_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\classroom_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_maleb_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\working_mom_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_task_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coach_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registration_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash_in_hand_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\training_32px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
