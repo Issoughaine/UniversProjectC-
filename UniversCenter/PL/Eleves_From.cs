@@ -21,7 +21,14 @@ namespace UniversCenter.PL
         {
             DGV_Eleve.Rows.Add("12345","Mohamed");
         }
-        private void delete_click(object sender, EventArgs e)
+        
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_AjouterEleve_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Test");
         }

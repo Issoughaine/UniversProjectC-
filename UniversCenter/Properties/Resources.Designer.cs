@@ -143,6 +143,16 @@ namespace UniversCenter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap joining_queue_32px {
+            get {
+                object obj = ResourceManager.GetObject("joining_queue_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap registration_32px {
             get {
                 object obj = ResourceManager.GetObject("registration_32px", resourceCulture);

@@ -42,17 +42,17 @@ namespace UniversCenter.PL
             this.nameEl = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.codeEl = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGV_Eleve = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton4 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuDropdown1 = new Bunifu.Framework.UI.BunifuDropdown();
             this.TB_cherche = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btn_AffecterEleve = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btn_SupprimerEleve = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btn_ModifierEleve = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btn_AjouterEleve = new Bunifu.Framework.UI.BunifuImageButton();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Eleve)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_AffecterEleve)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_SupprimerEleve)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_ModifierEleve)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_AjouterEleve)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuCustomLabel3
@@ -158,58 +158,6 @@ namespace UniversCenter.PL
             this.DGV_Eleve.Size = new System.Drawing.Size(1000, 466);
             this.DGV_Eleve.TabIndex = 3;
             // 
-            // bunifuImageButton1
-            // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(29)))), ((int)(((byte)(37)))));
-            this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(33, 80);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(40, 40);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.bunifuImageButton1.TabIndex = 4;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
-            // 
-            // bunifuImageButton2
-            // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(29)))), ((int)(((byte)(37)))));
-            this.bunifuImageButton2.Image = global::UniversCenter.Properties.Resources.registration_32px;
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(79, 80);
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(40, 40);
-            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.bunifuImageButton2.TabIndex = 5;
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 10;
-            // 
-            // bunifuImageButton3
-            // 
-            this.bunifuImageButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(29)))), ((int)(((byte)(37)))));
-            this.bunifuImageButton3.Image = global::UniversCenter.Properties.Resources.Delete_32px;
-            this.bunifuImageButton3.ImageActive = null;
-            this.bunifuImageButton3.Location = new System.Drawing.Point(125, 80);
-            this.bunifuImageButton3.Name = "bunifuImageButton3";
-            this.bunifuImageButton3.Size = new System.Drawing.Size(40, 40);
-            this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.bunifuImageButton3.TabIndex = 6;
-            this.bunifuImageButton3.TabStop = false;
-            this.bunifuImageButton3.Zoom = 10;
-            // 
-            // bunifuImageButton4
-            // 
-            this.bunifuImageButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(29)))), ((int)(((byte)(37)))));
-            this.bunifuImageButton4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton4.Image")));
-            this.bunifuImageButton4.ImageActive = null;
-            this.bunifuImageButton4.Location = new System.Drawing.Point(171, 80);
-            this.bunifuImageButton4.Name = "bunifuImageButton4";
-            this.bunifuImageButton4.Size = new System.Drawing.Size(40, 40);
-            this.bunifuImageButton4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton4.TabIndex = 7;
-            this.bunifuImageButton4.TabStop = false;
-            this.bunifuImageButton4.Zoom = 10;
-            // 
             // bunifuDropdown1
             // 
             this.bunifuDropdown1.BackColor = System.Drawing.Color.Transparent;
@@ -246,6 +194,59 @@ namespace UniversCenter.PL
             this.TB_cherche.TabIndex = 10;
             this.TB_cherche.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // btn_AffecterEleve
+            // 
+            this.btn_AffecterEleve.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(29)))), ((int)(((byte)(37)))));
+            this.btn_AffecterEleve.Image = global::UniversCenter.Properties.Resources.joining_queue_32px;
+            this.btn_AffecterEleve.ImageActive = null;
+            this.btn_AffecterEleve.Location = new System.Drawing.Point(171, 80);
+            this.btn_AffecterEleve.Name = "btn_AffecterEleve";
+            this.btn_AffecterEleve.Size = new System.Drawing.Size(40, 40);
+            this.btn_AffecterEleve.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_AffecterEleve.TabIndex = 7;
+            this.btn_AffecterEleve.TabStop = false;
+            this.btn_AffecterEleve.Zoom = 10;
+            // 
+            // btn_SupprimerEleve
+            // 
+            this.btn_SupprimerEleve.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(29)))), ((int)(((byte)(37)))));
+            this.btn_SupprimerEleve.Image = global::UniversCenter.Properties.Resources.Delete_32px;
+            this.btn_SupprimerEleve.ImageActive = null;
+            this.btn_SupprimerEleve.Location = new System.Drawing.Point(125, 80);
+            this.btn_SupprimerEleve.Name = "btn_SupprimerEleve";
+            this.btn_SupprimerEleve.Size = new System.Drawing.Size(40, 40);
+            this.btn_SupprimerEleve.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btn_SupprimerEleve.TabIndex = 6;
+            this.btn_SupprimerEleve.TabStop = false;
+            this.btn_SupprimerEleve.Zoom = 10;
+            // 
+            // btn_ModifierEleve
+            // 
+            this.btn_ModifierEleve.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(29)))), ((int)(((byte)(37)))));
+            this.btn_ModifierEleve.Image = global::UniversCenter.Properties.Resources.registration_32px;
+            this.btn_ModifierEleve.ImageActive = null;
+            this.btn_ModifierEleve.Location = new System.Drawing.Point(79, 80);
+            this.btn_ModifierEleve.Name = "btn_ModifierEleve";
+            this.btn_ModifierEleve.Size = new System.Drawing.Size(40, 40);
+            this.btn_ModifierEleve.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btn_ModifierEleve.TabIndex = 5;
+            this.btn_ModifierEleve.TabStop = false;
+            this.btn_ModifierEleve.Zoom = 10;
+            // 
+            // btn_AjouterEleve
+            // 
+            this.btn_AjouterEleve.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(29)))), ((int)(((byte)(37)))));
+            this.btn_AjouterEleve.Image = ((System.Drawing.Image)(resources.GetObject("btn_AjouterEleve.Image")));
+            this.btn_AjouterEleve.ImageActive = null;
+            this.btn_AjouterEleve.Location = new System.Drawing.Point(33, 80);
+            this.btn_AjouterEleve.Name = "btn_AjouterEleve";
+            this.btn_AjouterEleve.Size = new System.Drawing.Size(40, 40);
+            this.btn_AjouterEleve.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btn_AjouterEleve.TabIndex = 4;
+            this.btn_AjouterEleve.TabStop = false;
+            this.btn_AjouterEleve.Zoom = 10;
+            this.btn_AjouterEleve.Click += new System.EventHandler(this.btn_AjouterEleve_Click);
+            // 
             // Eleves_From
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -254,10 +255,10 @@ namespace UniversCenter.PL
             this.ClientSize = new System.Drawing.Size(1070, 700);
             this.Controls.Add(this.TB_cherche);
             this.Controls.Add(this.bunifuDropdown1);
-            this.Controls.Add(this.bunifuImageButton4);
-            this.Controls.Add(this.bunifuImageButton3);
-            this.Controls.Add(this.bunifuImageButton2);
-            this.Controls.Add(this.bunifuImageButton1);
+            this.Controls.Add(this.btn_AffecterEleve);
+            this.Controls.Add(this.btn_SupprimerEleve);
+            this.Controls.Add(this.btn_ModifierEleve);
+            this.Controls.Add(this.btn_AjouterEleve);
             this.Controls.Add(this.DGV_Eleve);
             this.Controls.Add(this.bunifuCustomLabel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -268,10 +269,10 @@ namespace UniversCenter.PL
             this.Text = "Eleves_From";
             this.Load += new System.EventHandler(this.Eleves_From_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Eleve)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_AffecterEleve)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_SupprimerEleve)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_ModifierEleve)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_AjouterEleve)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -288,10 +289,10 @@ namespace UniversCenter.PL
         private System.Windows.Forms.DataGridViewTextBoxColumn nameEl;
         private System.Windows.Forms.DataGridViewTextBoxColumn codeEl;
         private Bunifu.Framework.UI.BunifuCustomDataGrid DGV_Eleve;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton3;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton4;
+        private Bunifu.Framework.UI.BunifuImageButton btn_AjouterEleve;
+        private Bunifu.Framework.UI.BunifuImageButton btn_ModifierEleve;
+        private Bunifu.Framework.UI.BunifuImageButton btn_SupprimerEleve;
+        private Bunifu.Framework.UI.BunifuImageButton btn_AffecterEleve;
         private Bunifu.Framework.UI.BunifuDropdown bunifuDropdown1;
         private Bunifu.Framework.UI.BunifuMaterialTextbox TB_cherche;
     }
