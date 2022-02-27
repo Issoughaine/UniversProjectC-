@@ -667,6 +667,7 @@ namespace UniversCenter.PL
             this.Name = "Ajouter_Eleve_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ajouter_Eleve_Form";
+            this.Load += new System.EventHandler(this.Ajouter_Eleve_Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

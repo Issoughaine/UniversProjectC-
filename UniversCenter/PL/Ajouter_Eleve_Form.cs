@@ -19,7 +19,11 @@ namespace UniversCenter.PL
 
         private void CLB_Groupes_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int nb = CLB_Groupes.CheckedItems.Count;
+            
+        }
+        private void Ajouter_Eleve_Form_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
